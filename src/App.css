@@ -68,7 +68,6 @@
 }
 @media only screen and (max-width: 500px) {
   .App .left {
-    left: 60%;
     width: 60%;
   }
 }
