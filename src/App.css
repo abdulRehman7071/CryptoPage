@@ -44,6 +44,7 @@
 .App {
   background-color: #f5f5f7;
   display: flex;
+  min-height: 100vh;
 }
 .App .left {
   width: 16%;
@@ -52,6 +53,7 @@
   overflow-y: scroll;
   padding: 32px 24px 0px 40px;
   max-height: 100%;
+  z-index: 2;
 }
 .App .left::-webkit-scrollbar {
   width: 0px;
@@ -60,6 +62,14 @@
 @media only screen and (max-width: 1200px) {
   .App .left {
     left: -100%;
+    background-color: #f5f5f7;
+    width: 30%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .App .left {
+    left: 60%;
+    width: 60%;
   }
 }
 .App .right {
@@ -70,5 +80,10 @@
   .App .right {
     width: 100%;
     margin-left: 0%;
+  }
+}
+@media only screen and (max-width: 820px) {
+  .App html {
+    font-size: 80%;
   }
 }/*# sourceMappingURL=App.css.map */

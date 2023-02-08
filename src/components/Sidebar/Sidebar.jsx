@@ -8,7 +8,7 @@ import { Theme } from '../../App'
 const Sidebar = () => {
     const { darkMode } = useContext(Theme)
     return (
-        <div className={`leftWrapper ${darkMode && 'dark'}`}>
+        <div className={`leftWrapper ${darkMode && 'darkBg'}`}>
 
             <div className="logoContainer">
                 {
@@ -115,7 +115,7 @@ const Sidebar = () => {
                 }
                 <h1>Stader</h1>
             </div>
-            <div className={`bnbMenu ${darkMode && 'darkBg'}`}>
+            <div className={`bnbMenu ${darkMode && 'dark'}`}>
                 <div>
                     <img src="/assests/bnb-bnb-logo.svg" alt="bnb logo" />
                     <h3>BNB</h3>
@@ -137,9 +137,9 @@ const Sidebar = () => {
                 <Stack url="/assests/terra.svg" title="Tera" darkMode={darkMode} />
             </div>
 
-            <div className={`aboutBnbx ${darkMode && 'dark'}`}>
+            <div className={`aboutBnbx ${darkMode && 'darkBg'}`}>
                 <p>Everything about BNBx</p>
-                <button className={darkMode && 'dark whiteBorder darkFont'}>Learn more</button>
+                <button className={darkMode && 'darkBg whiteBorder darkFont'}>Learn more</button>
             </div>
             <div className={`communityBox ${darkMode && 'darkBg'}`}>
                 <p>Join our Community</p>

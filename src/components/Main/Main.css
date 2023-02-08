@@ -44,6 +44,11 @@ main {
 main .wrapper {
   padding: 16px;
 }
+@media only screen and (max-width: 700px) {
+  main .wrapper {
+    padding: 0;
+  }
+}
 main .wrapper .cryptoDetails {
   display: flex;
   gap: 1rem;
@@ -58,6 +63,11 @@ main .wrapper .cryptoDetails .cryptoDesc .cryptoTitle {
   text-align: center;
   gap: 1rem;
   font-size: 28px;
+}
+@media only screen and (max-width: 700px) {
+  main .wrapper .cryptoDetails .cryptoDesc .cryptoTitle {
+    font-size: 20px;
+  }
 }
 main .wrapper .cryptoDetails .cryptoDesc .cryptoTitle .securityBox {
   display: flex;
@@ -76,6 +86,11 @@ main .wrapper .cryptoDetails .cryptoDesc .description {
 main .wrapper .cryptoDetails .cryptoDesc .description p {
   font-size: 1rem;
 }
+@media only screen and (max-width: 700px) {
+  main .wrapper .cryptoDetails .cryptoDesc .description p {
+    font-size: 12px;
+  }
+}
 main .wrapper .cryptoStats {
   display: flex;
   justify-content: space-around;
@@ -86,11 +101,28 @@ main .wrapper .cryptoStats {
   margin-top: 1.5rem;
   text-align: center;
 }
+@media only screen and (max-width: 500px) {
+  main .wrapper .cryptoStats {
+    flex-direction: column;
+    width: 94%;
+  }
+}
 main .wrapper .cryptoStats .dataBox {
   display: flex;
   flex-direction: column;
   gap: 1rem;
   font-size: 14px;
+}
+@media only screen and (max-width: 500px) {
+  main .wrapper .cryptoStats .dataBox {
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0.5rem 0rem;
+  }
+}
+main .wrapper .cryptoStats .dataBox svg {
+  margin-left: 3px;
 }
 main .wrapper .cryptoStats .dataBox .gray {
   display: flex;
@@ -112,11 +144,21 @@ main .wrapper .stakeEarnWrapper {
   width: 100%;
   margin-top: 1.5rem;
 }
+@media only screen and (max-width: 500px) {
+  main .wrapper .stakeEarnWrapper {
+    flex-direction: column;
+  }
+}
 main .wrapper .stakeEarnWrapper .stake {
   background: white;
   border-radius: 8px;
   padding: 1.5rem;
   width: 52%;
+}
+@media only screen and (max-width: 500px) {
+  main .wrapper .stakeEarnWrapper .stake {
+    width: 90%;
+  }
 }
 main .wrapper .stakeEarnWrapper .stake .withdraw {
   margin-top: 1.5rem;
@@ -143,6 +185,12 @@ main .wrapper .stakeEarnWrapper .stake .addCrypto .currentCrypto {
 }
 main .wrapper .stakeEarnWrapper .stake .addCrypto .currentCrypto span {
   font-weight: 700;
+}
+@media only screen and (max-width: 700px) {
+  main .wrapper .stakeEarnWrapper .stake .addCrypto .currentCrypto {
+    flex-direction: column;
+    gap: 1rem;
+  }
 }
 main .wrapper .stakeEarnWrapper .stake .addCrypto .insertCrypto {
   display: flex;
@@ -326,6 +374,11 @@ main .wrapper .stakeEarnWrapper .withdrawBox .heading p {
 main .wrapper .stakeEarnWrapper .withdrawBox .heading p:nth-child(1) {
   width: 30%;
 }
+@media only screen and (max-width: 700px) {
+  main .wrapper .stakeEarnWrapper .withdrawBox .heading p:nth-child(1) {
+    width: 40%;
+  }
+}
 main .wrapper .stakeEarnWrapper .withdrawBox .withdrawCard {
   display: flex;
   margin: 1rem 0rem;
@@ -335,6 +388,13 @@ main .wrapper .stakeEarnWrapper .withdrawBox .withdrawCard .withdrawAmount {
   display: flex;
   align-items: center;
   font-weight: 600;
+}
+@media only screen and (max-width: 700px) {
+  main .wrapper .stakeEarnWrapper .withdrawBox .withdrawCard .withdrawAmount {
+    width: 40%;
+    width: 35%;
+    font-size: 14px;
+  }
 }
 main .wrapper .stakeEarnWrapper .withdrawBox .withdrawCard .cardButton {
   width: 70%;
@@ -359,6 +419,11 @@ main .wrapper .stakeEarnWrapper .earningStats {
   padding: 1.5rem;
   width: 45%;
 }
+@media only screen and (max-width: 500px) {
+  main .wrapper .stakeEarnWrapper .earningStats {
+    width: 90%;
+  }
+}
 main .wrapper .stakeEarnWrapper .earningStats .currentPrice {
   padding: 1rem;
   border-bottom: 0.5px solid #d3d3d3;
@@ -373,6 +438,11 @@ main .wrapper .stakeEarnWrapper .earningStats .currentPrice span {
   font-weight: 700;
   font-size: 1.25rem;
   margin-left: 4rem;
+}
+@media only screen and (max-width: 500px) {
+  main .wrapper .stakeEarnWrapper .earningStats .currentPrice span {
+    margin-left: 1rem;
+  }
 }
 main .wrapper .stakeEarnWrapper .earningStats .cardExploreBox .knowMoreDiv {
   margin-top: 1.5rem;
@@ -460,4 +530,9 @@ main .wrapper .stakeEarnWrapper .earningStats .cardExploreBox .cryptoCardsWrappe
 }
 main .wrapper .stakeEarnWrapper .earningStats .cardExploreBox .cryptoCardsWrapper .cards span .logo1 {
   left: 1%;
+}
+@media only screen and (max-width: 500px) {
+  main .wrapper .warnings p {
+    font-size: 12px;
+  }
 }/*# sourceMappingURL=Main.css.map */

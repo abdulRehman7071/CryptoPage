@@ -160,7 +160,9 @@ const Main = () => {
                     <div className={`earningStats ${darkMode && 'darkBg darkFont'}`}>
                         <div className="currentPrice">
                             <p>
-                                Stader TVL darkFont
+
+                                Stader TVL
+
                                 <span className={darkMode && 'darkFont'}>$ 172,418,039</span>
                             </p>
                         </div>
@@ -206,7 +208,7 @@ const Main = () => {
                                     ARY=""
                                     darkMode={darkMode}
                                 />
-                                <CryptoCards url="/assests/cone.svg" name="Cone" ARY="" />
+                                <CryptoCards url="/assests/cone.svg" name="Cone" ARY="" darkMode={darkMode} />
                                 <CryptoCards
                                     url="/assests/midas-light.svg"
                                     name="Midas"

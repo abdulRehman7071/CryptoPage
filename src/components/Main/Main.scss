@@ -8,6 +8,9 @@ main {
     margin: 0 auto;
     .wrapper {
         padding: 16px;
+        @media only screen and (max-width: 700px) {
+            padding: 0;
+        }
 
         .cryptoDetails {
             display: flex;
@@ -24,6 +27,9 @@ main {
                     text-align: center;
                     gap: 1rem;
                     font-size: 28px;
+                    @media only screen and (max-width: 700px) {
+                        font-size: 20px;
+                    }
 
                     .securityBox {
                         display: flex;
@@ -41,6 +47,9 @@ main {
                     font-size: 1rem;
                     p {
                         font-size: 1rem;
+                        @media only screen and (max-width: 700px) {
+                            font-size: 12px;
+                        }
                     }
                 }
             }
@@ -54,12 +63,24 @@ main {
             padding: 1rem;
             margin-top: 1.5rem;
             text-align: center;
-
+            @media only screen and (max-width: 500px) {
+                flex-direction: column;
+                width: 94%;
+            }
             .dataBox {
                 display: flex;
                 flex-direction: column;
                 gap: 1rem;
                 font-size: 14px;
+                @media only screen and (max-width: 500px) {
+                    flex-direction: row;
+                    width: 100%;
+                    justify-content: space-between;
+                    padding: 0.5rem 0rem;
+                }
+                svg {
+                    margin-left: 3px;
+                }
                 .gray {
                     display: flex;
                     align-items: center;
@@ -74,6 +95,8 @@ main {
                     }
                 }
             }
+            @media only screen and (max-width: 500px) {
+            }
         }
         .stakeEarnWrapper {
             display: flex;
@@ -81,8 +104,14 @@ main {
             gap: 1rem;
             width: 100%;
             margin-top: 1.5rem;
+            @media only screen and (max-width: 500px) {
+                flex-direction: column;
+            }
 
             .stake {
+                @media only screen and (max-width: 500px) {
+                    width: 90%;
+                }
                 .withdraw {
                     margin-top: 1.5rem;
                 }
@@ -90,6 +119,7 @@ main {
                 border-radius: 8px;
                 padding: 1.5rem;
                 width: 52%;
+
                 .stakeMenu {
                     font-size: 20px;
                     display: flex;
@@ -97,6 +127,7 @@ main {
                     width: 100%;
                     font-weight: 700;
                     color: #5e5f64;
+
                     div {
                         cursor: pointer;
                     }
@@ -110,6 +141,10 @@ main {
                         font-size: 12px;
                         span {
                             font-weight: 700;
+                        }
+                        @media only screen and (max-width: 700px) {
+                            flex-direction: column;
+                            gap: 1rem;
                         }
                     }
                     .insertCrypto {
@@ -302,6 +337,9 @@ main {
                         padding: 1rem 0rem;
                         &:nth-child(1) {
                             width: 30%;
+                            @media only screen and (max-width: 700px) {
+                                width: 40%;
+                            }
                         }
                     }
                 }
@@ -313,6 +351,12 @@ main {
                         display: flex;
                         align-items: center;
                         font-weight: 600;
+
+                        @media only screen and (max-width: 700px) {
+                            width: 40%;
+                            width: 35%;
+                            font-size: 14px;
+                        }
                     }
                     .cardButton {
                         width: 70%;
@@ -338,6 +382,9 @@ main {
                 border-radius: 8px;
                 padding: 1.5rem;
                 width: 45%;
+                @media only screen and (max-width: 500px) {
+                    width: 90%;
+                }
                 .currentPrice {
                     // margin: 1rem 1rem;
                     padding: 1rem;
@@ -352,6 +399,11 @@ main {
                         font-weight: 700;
                         font-size: 1.25rem;
                         margin-left: 4rem;
+                    }
+                    @media only screen and (max-width: 500px) {
+                        span {
+                            margin-left: 1rem;
+                        }
                     }
                 }
                 .cardExploreBox {
@@ -449,6 +501,13 @@ main {
                             }
                         }
                     }
+                }
+            }
+        }
+        @media only screen and (max-width: 500px) {
+            .warnings {
+                p {
+                    font-size: 12px;
                 }
             }
         }
