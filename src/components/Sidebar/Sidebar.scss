@@ -1,0 +1,155 @@
+@import "../../variable";
+.leftWrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: $primary_color;
+
+    .logoContainer {
+        display: flex;
+        gap: 0.5rem;
+        font-size: 12px;
+        align-items: center;
+        h1 {
+            font-weight: 900;
+        }
+        margin-bottom: 1.5rem;
+    }
+    .bnbMenu {
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+        border-radius: 0.5rem;
+        padding: 16px 8px 24px 16px;
+        cursor: pointer;
+
+        div {
+            display: flex;
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+        }
+        div > img {
+            width: 20px;
+            height: 20px;
+            margin-right: 1rem;
+        }
+        ul {
+            list-style: none;
+            margin-left: 1.5rem;
+            padding: 8px 16px 0px 16px;
+
+            li {
+                padding: 8px;
+                font-size: 16px;
+                display: flex;
+                align-items: center;
+                span {
+                    font-size: 10px;
+                    border-radius: 6px;
+                    background-color: $secondary_color;
+                    padding-inline: 0.5rem;
+                    padding: 2px 8px;
+                    margin-left: 0.5rem;
+                    font-weight: 900;
+                }
+            }
+        }
+    }
+    .liquidStacking {
+        margin-top: 2.5rem;
+        margin-bottom: 32px;
+        p {
+            font-size: 10px;
+            color: #5e5f64;
+            font-weight: 700;
+        }
+        div {
+            margin-top: 10px;
+        }
+        .stackImage {
+            display: flex;
+            align-items: center;
+            span {
+                padding: 5px;
+                background-color: white;
+                display: flex;
+                border-radius: 999px;
+                margin-right: 0.5rem;
+            }
+            span > img {
+                margin-right: 1rem;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            h5 {
+                color: black;
+                margin-left: 0.5rem;
+                font-weight: 500;
+                font-size: 12px;
+                &:hover {
+                    color: #5e5f64;
+                    cursor: pointer;
+                }
+            }
+        }
+        .stackIcons {
+            display: flex;
+            justify-content: space-between;
+            width: 90%;
+        }
+    }
+    .aboutBnbx {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+
+        p {
+            font-size: 14px;
+            font-weight: 700;
+            color: #5e5f64;
+        }
+        button {
+            border: 0.667px solid black;
+            padding: 8px 16px;
+            font-size: 14px;
+            width: 90%;
+            border-radius: 8px;
+            font-family: 900;
+            transition: ease-in all 100ms;
+            &:hover {
+                background-color: $secondary_color;
+            }
+        }
+    }
+    .communityBox {
+        padding: 1rem;
+        background-color: white;
+        margin-top: 2.5rem;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-bottom: 1rem;
+        border-radius: 1rem;
+        p {
+            color: #5e5f64;
+            font-size: 14px;
+            text-align: center;
+        }
+        div {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 0.5rem;
+            svg {
+                &:hover {
+                    color: #f3ba2f;
+                    transform: scale(1.5);
+                    transition: ease-in-out all 0.2s;
+                }
+            }
+        }
+    }
+}

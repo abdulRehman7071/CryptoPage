@@ -1,0 +1,186 @@
+.bold {
+  font-weight: 700;
+  color: black;
+}
+
+.whiteBold {
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
+.whiteBorder {
+  border-color: white !important;
+}
+
+.hideBorder {
+  border-color: #333333 !important;
+}
+
+.dark {
+  background-color: #202022 !important;
+}
+
+.darkBg {
+  background-color: #2b2b2b !important;
+}
+
+.cardBg {
+  background-color: #333333 !important;
+}
+
+.darkFont {
+  color: white !important;
+}
+
+.darkGrayFont {
+  color: #222123 !important;
+}
+
+.leftWrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f7;
+}
+.leftWrapper .logoContainer {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 12px;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+.leftWrapper .logoContainer h1 {
+  font-weight: 900;
+}
+.leftWrapper .bnbMenu {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  border-radius: 0.5rem;
+  padding: 16px 8px 24px 16px;
+  cursor: pointer;
+}
+.leftWrapper .bnbMenu div {
+  display: flex;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.leftWrapper .bnbMenu div > img {
+  width: 20px;
+  height: 20px;
+  margin-right: 1rem;
+}
+.leftWrapper .bnbMenu ul {
+  list-style: none;
+  margin-left: 1.5rem;
+  padding: 8px 16px 0px 16px;
+}
+.leftWrapper .bnbMenu ul li {
+  padding: 8px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+.leftWrapper .bnbMenu ul li span {
+  font-size: 10px;
+  border-radius: 6px;
+  background-color: #f3ba2f;
+  padding-inline: 0.5rem;
+  padding: 2px 8px;
+  margin-left: 0.5rem;
+  font-weight: 900;
+}
+.leftWrapper .liquidStacking {
+  margin-top: 2.5rem;
+  margin-bottom: 32px;
+}
+.leftWrapper .liquidStacking p {
+  font-size: 10px;
+  color: #5e5f64;
+  font-weight: 700;
+}
+.leftWrapper .liquidStacking div {
+  margin-top: 10px;
+}
+.leftWrapper .liquidStacking .stackImage {
+  display: flex;
+  align-items: center;
+}
+.leftWrapper .liquidStacking .stackImage span {
+  padding: 5px;
+  background-color: white;
+  display: flex;
+  border-radius: 999px;
+  margin-right: 0.5rem;
+}
+.leftWrapper .liquidStacking .stackImage span > img {
+  margin-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.leftWrapper .liquidStacking .stackImage h5 {
+  color: black;
+  margin-left: 0.5rem;
+  font-weight: 500;
+  font-size: 12px;
+}
+.leftWrapper .liquidStacking .stackImage h5:hover {
+  color: #5e5f64;
+  cursor: pointer;
+}
+.leftWrapper .liquidStacking .stackIcons {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+.leftWrapper .aboutBnbx {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+.leftWrapper .aboutBnbx p {
+  font-size: 14px;
+  font-weight: 700;
+  color: #5e5f64;
+}
+.leftWrapper .aboutBnbx button {
+  border: 0.667px solid black;
+  padding: 8px 16px;
+  font-size: 14px;
+  width: 90%;
+  border-radius: 8px;
+  font-family: 900;
+  transition: ease-in all 100ms;
+}
+.leftWrapper .aboutBnbx button:hover {
+  background-color: #f3ba2f;
+}
+.leftWrapper .communityBox {
+  padding: 1rem;
+  background-color: white;
+  margin-top: 2.5rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+.leftWrapper .communityBox p {
+  color: #5e5f64;
+  font-size: 14px;
+  text-align: center;
+}
+.leftWrapper .communityBox div {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 0.5rem;
+}
+.leftWrapper .communityBox div svg:hover {
+  color: #f3ba2f;
+  transform: scale(1.5);
+  transition: ease-in-out all 0.2s;
+}/*# sourceMappingURL=Sidebar.css.map */

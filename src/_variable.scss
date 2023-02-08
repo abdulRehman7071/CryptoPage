@@ -1,0 +1,32 @@
+$primary_color: #f5f5f7;
+$secondary_color: #f3ba2f;
+.bold {
+    font-weight: 700;
+    color: black;
+}
+.whiteBold {
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+.whiteBorder {
+    border-color: white !important;
+}
+.hideBorder {
+    border-color: #333333 !important;
+}
+.dark {
+    background-color: #202022 !important;
+}
+.darkBg {
+    background-color: #2b2b2b !important;
+}
+.cardBg {
+    background-color: #333333 !important;
+}
+.darkFont {
+    color: white !important;
+}
+.darkGrayFont {
+    color: #222123 !important;
+    // color: white !important;
+}

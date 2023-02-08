@@ -1,0 +1,85 @@
+.bold {
+  font-weight: 700;
+  color: black;
+}
+
+.whiteBold {
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
+.whiteBorder {
+  border-color: white !important;
+}
+
+.hideBorder {
+  border-color: #333333 !important;
+}
+
+.dark {
+  background-color: #202022 !important;
+}
+
+.darkBg {
+  background-color: #2b2b2b !important;
+}
+
+.cardBg {
+  background-color: #333333 !important;
+}
+
+.darkFont {
+  color: white !important;
+}
+
+.darkGrayFont {
+  color: #222123 !important;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 16px;
+  position: relative;
+}
+header .headerWrapper {
+  margin: 0 16px;
+}
+header .walletButton {
+  background-color: #f3ba2f;
+  border-radius: 8px;
+  height: 52px;
+  font-size: 1rem;
+  font-weight: 600;
+  padding: 0 16px;
+  border: none;
+  cursor: pointer;
+}
+header .moreButton {
+  background-color: white;
+  margin-left: 1.5rem;
+  height: 52px;
+  width: 52px;
+  border: none;
+  border-radius: 8px;
+}
+header .moreButton:hover {
+  background-color: #f3ba2f;
+}
+header .mode {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+header #hamberger {
+  position: absolute;
+  top: 20px;
+  left: 0;
+}
+@media only screen and (max-width: 1200px) {
+  header #hamberger {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=Header.css.map */
