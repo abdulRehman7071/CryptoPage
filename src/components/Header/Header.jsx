@@ -1,5 +1,5 @@
 import "./Header.scss";
-import React, { useState, useContext } from "react";
+import React, { useContext } from "react";
 import { BsThreeDotsVertical } from "react-icons/bs";
 import { FiSun } from "react-icons/fi";
 import { GiHamburgerMenu } from "react-icons/gi";
